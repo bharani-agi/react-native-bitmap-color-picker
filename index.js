@@ -189,7 +189,7 @@ export class BitMapColorPicker extends React.Component {
         }
     }
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
         const handleColorChange = ({
             x,
             y
